@@ -19,3 +19,11 @@ npm start
 
 ## We also need
 npm install typescript-compiler
+
+
+## Issues
+node_modules/protractor/built/browser.d.ts(258,37): error TS2503: Cannot find namespace 'webdriver'.
+See
+http://stackoverflow.com/questions/41238376/angular2-npm-install-didnt-find-namespace-webdriver
+I.e. solution:
+npm install @types/selenium-webdriver@2.53.36 --save-dev
