@@ -16,3 +16,6 @@ Get it now</a> if it's not already installed on your machine.
 npm install
 npm start
 ```
+
+## We also need
+npm install typescript-compiler
